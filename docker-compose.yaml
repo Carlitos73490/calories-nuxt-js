@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+  nuxt:
+    build:
+      context: .
+    image: calories_nuxt_js_dev
+    container_name: calories_nuxt_js_dev
+    command: npm run dev
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - "3000:3000"
