@@ -1,7 +1,6 @@
 import {
-    ApertureIcon,
-    CopyIcon,
-    LayoutDashboardIcon, LoginIcon, MoodHappyIcon, TypographyIcon, UserPlusIcon
+    CalculatorIcon, CookieIcon,
+    LayoutDashboardIcon, ListDetailsIcon, LoginIcon, UserPlusIcon
 } from 'vue-tabler-icons';
 
 export interface menu {
@@ -20,24 +19,28 @@ export interface menu {
 }
 
 const sidebarItem: menu[] = [
-    { header: 'Home' },
     {
         title: 'Dashboard',
         icon: LayoutDashboardIcon,
         to: '/'
     },
-    { header: 'utilities' },
+    { header: 'Utilitaires' },
     {
-        title: 'Typography',
-        icon: TypographyIcon,
+        title: 'Calculateur de calories',
+        icon: CalculatorIcon,
         to: '/ui/typography'
     },
     {
-        title: 'Shadow',
-        icon: CopyIcon,
+        title: 'Mes recettes',
+        icon: ListDetailsIcon,
         to: '/ui/shadow'
     },
-    { header: 'auth' },
+    {
+        title: 'Liste des aliments',
+        icon: CookieIcon,
+        to: '/ui/shadow'
+    },
+    { header: 'Admin' },
     {
         title: 'Login',
         icon: LoginIcon,
@@ -47,17 +50,6 @@ const sidebarItem: menu[] = [
         title: 'Register',
         icon: UserPlusIcon,
         to: '/auth/register'
-    },
-    { header: 'Extra' },
-    {
-        title: 'Icons',
-        icon: MoodHappyIcon,
-        to: '/icons'
-    },
-    {
-        title: 'Sample Page',
-        icon: ApertureIcon,
-        to: '/sample-page'
     },
 ];
 
