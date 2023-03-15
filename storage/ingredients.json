@@ -1,0 +1,222 @@
+[
+  {
+    "id": "3d094a2f-d2e5-43c9-ad8c-81fb1cfe1998",
+    "name": "Blanc de poulet",
+    "description": "Source de protéines maigres provenant de la viande de poulet.",
+    "nutrition": {
+      "calories": 165,
+      "fat": 3.6,
+      "carbohydrates": 0,
+      "protein": 31
+    }
+  },
+  {
+    "id": "0b1f9554-975a-4822-9267-c4c4aef28c78",
+    "name": "Riz brun",
+    "description": "Riz à grains entiers au goût de noisette et à la texture moelleuse.",
+    "nutrition": {
+      "calories": 216,
+      "fat": 1.8,
+      "carbohydrates": 45,
+      "protein": 5
+    }
+  },
+  {
+    "id": "68b5f3b7-4e0b-422f-89a3-a4a27b1bd8e6",
+    "name": "Brocoli",
+    "description": "Légume nutritif avec fleurons verts et tiges.",
+    "nutrition": {
+      "calories": 55,
+      "fat": 0.6,
+      "carbohydrates": 10,
+      "protein": 4
+    }
+  },
+  {
+    "id": "4fd025a9-f95d-4040-89be-f030fc43d584",
+    "name": "Carottes",
+    "description": "Légume orange à la texture ferme et au goût sucré.",
+    "nutrition": {
+      "calories": 41,
+      "fat": 0.2,
+      "carbohydrates": 9,
+      "protein": 1
+    }
+  },
+  {
+    "id":"8fe5004a-51d5-4ac1-8571-942acf5958ff",
+    "name": "Oignons",
+    "description": "Légume blanc à la texture ferme et au goût sucré.",
+    "nutrition": {
+      "calories": 40,
+      "fat": 0.1,
+      "carbohydrates": 9,
+      "protein": 1
+    }
+  },
+  {
+    "id": "832baf0f-ab15-4453-9e63-c58869135818" ,
+    "name": "Pommes de terre",
+    "description": "Légume blanc à la texture ferme et au goût sucré.",
+    "nutrition": {
+      "calories": 77,
+      "fat": 0.2,
+      "carbohydrates": 17,
+      "protein": 2
+    }
+  },
+  {
+    "id": "2e5ecef3-8262-40b2-b254-f8d554a65309",
+    "name": "Pois cassés",
+    "description": "Légumineuse à la texture ferme et au goût sucré.",
+    "nutrition": {
+      "calories": 81,
+      "fat": 0.4,
+      "carbohydrates": 15,
+      "protein": 5
+    }
+  },
+  {
+    "id": 8,
+    "name": "Pois chiches",
+    "description": "Légumineuse à la texture ferme et au goût sucré.",
+    "nutrition": {
+      "calories": 109,
+      "fat": 0.4,
+      "carbohydrates": 20,
+      "protein": 7
+    }
+  },
+  {
+    "id": 9,
+    "name": "Lentilles",
+    "description": "Légumineuse à la texture ferme et au goût sucré.",
+    "nutrition": {
+      "calories": 230,
+      "fat": 0.4,
+      "carbohydrates": 43,
+      "protein": 18
+    }
+  },
+  {
+    "id": 10,
+    "name": "Haricots rouges",
+    "description": "Légumineuse à la texture ferme et au goût sucré.",
+    "nutrition": {
+      "calories": 127,
+      "fat": 0.4,
+      "carbohydrates": 23,
+      "protein": 9
+    }
+  },
+  {
+    "id": 11,
+    "name": "Pois",
+    "description": "Légumineuse à la texture ferme et au goût sucré.",
+    "nutrition": {
+      "calories": 81,
+      "fat": 0.4,
+      "carbohydrates": 15,
+      "protein": 5
+    }
+  },
+  {
+    "id": 12,
+    "name": "Noix de cajou",
+    "description": "Noix à la texture ferme et au goût sucré.",
+    "nutrition": {
+      "calories": 567,
+      "fat": 49,
+      "carbohydrates": 21,
+      "protein": 21
+    }
+  },
+  {
+    "id": 13,
+    "name": "Amandes",
+    "description": "Noix à la texture ferme et au goût sucré.",
+    "nutrition": {
+      "calories": 579,
+      "fat": 50,
+      "carbohydrates": 21,
+      "protein": 21
+    }
+  },
+  {
+    "id": 14,
+    "name": "Bananes",
+    "description": "Fruit à la texture ferme et au goût sucré.",
+    "nutrition": {
+      "calories": 105,
+      "fat": 0.4,
+      "carbohydrates": 27,
+      "protein": 1
+    }
+  },
+  {
+    "id": 15,
+    "name": "Fraises",
+    "description": "Fruit à la texture ferme et au goût sucré.",
+    "nutrition": {
+      "calories": 32,
+      "fat": 0.3,
+      "carbohydrates": 7,
+      "protein": 0.7
+    }
+  },
+  {
+    "id": 16,
+    "name": "Mangues",
+    "description": "Fruit à la texture ferme et au goût sucré.",
+    "nutrition": {
+      "calories": 60,
+      "fat": 0.5,
+      "carbohydrates": 15,
+      "protein": 0.6
+    }
+  },
+  {
+    "id": 17,
+    "name": "Pêches",
+    "description": "Fruit à la texture ferme et au goût sucré.",
+    "nutrition": {
+      "calories": 39,
+      "fat": 0.3,
+      "carbohydrates": 9,
+      "protein": 0.9
+    }
+  },
+  {
+    "id": 18,
+    "name": "Pommes",
+    "description": "Fruit à la texture ferme et au goût sucré.",
+    "nutrition": {
+      "calories": 52,
+      "fat": 0.3,
+      "carbohydrates": 14,
+      "protein": 0.3
+    }
+  },
+  {
+    "id": 19,
+    "name": "Poires",
+    "description": "Fruit à la texture ferme et au goût sucré.",
+    "nutrition": {
+      "calories": 57,
+      "fat": 0.2,
+      "carbohydrates": 15,
+      "protein": 0.4
+    }
+  },
+  {
+    "id": 20,
+    "name": "Tomates",
+    "description": "Fruit à la texture ferme et au goût sucré.",
+    "nutrition": {
+      "calories": 18,
+      "fat": 0.2,
+      "carbohydrates": 3,
+      "protein": 1
+    }
+  }
+]

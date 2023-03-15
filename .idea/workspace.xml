@@ -6,6 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="c45d4403-bc2a-4d14-bd84-dc5240e42994" name="Changes" comment="[Update] Api JWT Token working on current routes">
       <change beforePath="$PROJECT_DIR$/nuxt.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/Ingredient.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/Step.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/IngredientModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/StepModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/api/ingredient.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/api/ingredient/[Id].ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/ingredients.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Recipe.ts" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Recipe.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/RecipeModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/RecipeModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/recipe.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/recipe.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/recipe/[recipeId].ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/recipe/[Id].ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/recipes.json" beforeDir="false" afterPath="$PROJECT_DIR$/storage/recipes.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +62,28 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/api" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/api" />
+      <recent name="$PROJECT_DIR$/server/api/ingredient" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/server/api" />
       <recent name="$PROJECT_DIR$/server/api/auth" />
@@ -79,6 +113,7 @@
       <workItem from="1678794482284" duration="1809000" />
       <workItem from="1678806382068" duration="7889000" />
       <workItem from="1678877862928" duration="56000" />
+      <workItem from="1678806382068" duration="12520000" />
     </task>
     <task id="LOCAL-00001" summary="Route work in progress">
       <created>1678791375521</created>
@@ -101,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678794764427</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[Update] Api JWT Token working on current routes">
+      <created>1678871982149</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678871982149</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
