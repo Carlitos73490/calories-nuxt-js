@@ -6,9 +6,14 @@ import MonthlyEarning from '@/components/dashboard/MonthlyEarnings.vue';
 import RecentTransaction from '@/components/dashboard/RecentTransaction.vue';
 import ProductPerformance from '@/components/dashboard/ProductPerformance.vue';
 import ProductCards from '@/components/dashboard/ProductCards.vue';
+const headers = useRequestHeaders(['cookie']) as HeadersInit
+const { data: token } = await useFetch('/api/token', { headers })
+
 </script>
 <template>
-    <v-row>
+  <div>{{ token || 'no token present, are you logged in?' }}</div>
+
+  <v-row>
         <v-col cols="12">
             <v-row>
                 <!-- Sales overview -->
