@@ -4,6 +4,12 @@
     border-right: 1px solid rgb(var(--v-theme-borderColor));
     .logo {
         padding-left: 7px;
+
+        a img {
+            width: 100px;
+            height: 100px;
+        }
+
     }
 
     .mini-icon {
@@ -17,7 +23,6 @@
 
 /*This is for the Vertical sidebar*/
 .scrollnavbar {
-    height: calc(100vh - 80px);
 
     .userbottom {
         position: fixed;
