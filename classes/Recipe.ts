@@ -1,4 +1,5 @@
 import recipe from "~/server/api/recipe";
+import * as crypto from 'crypto';
 
 export default class Recipe implements  RecipeModel{
 

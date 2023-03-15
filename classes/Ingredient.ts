@@ -1,3 +1,4 @@
+import * as crypto from 'crypto';
 export default class Ingredient implements  IngredientModel{
     private _id : string;
     private _name: string;
