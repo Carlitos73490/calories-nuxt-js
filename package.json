@@ -8,6 +8,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@sidebase/nuxt-auth": "^0.4.3",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
     "eslint": "^8.36.0",
@@ -15,8 +16,6 @@
     "nuxt": "^3.2.3"
   },
   "dependencies": {
-    "@nuxt/types": "^2.16.0",
-    "@pinia/nuxt": "^0.4.7",
-    "pinia": "^2.0.33"
+    "@nuxt/types": "^2.16.0"
   }
 }
