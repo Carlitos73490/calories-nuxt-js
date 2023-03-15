@@ -10,20 +10,19 @@ export default eventHandler(async (event) => {
         sendError(event, authError());
     }
 
-    const recipeId : string = getRouterParam(event,"recipeId")
+    const id : string = getRouterParam(event,"Id")
 
-    if(!recipeId){
+    if(!id){
 
         sendError(event,IdError());
         return;
     }
 
-    const data : RecipeModel[] = JSON.parse(await readFile("./storage/recipes.json", "utf8"));
-    const element : RecipeModel |undefined   =  data.find((recipe)=>{return recipe.title === recipeId})
+    const data : IngredientModel[] = JSON.parse(await readFile("./storage/ingredients.json", "utf8"));
+    const element : IngredientModel |undefined   =  data.find((ingredient)=>{return ingredient.id === id})
 
     if (element === undefined){
-
-        sendError(event,NotFoundArticleError(recipeId));
+        sendError(event,NotFoundArticleError(id));
         return;
     }
 
@@ -36,16 +35,15 @@ export default eventHandler(async (event) => {
             if (index > -1) {
                 data.splice(index, 1);
             }
-            await writeFile("./storage/recipes.json",JSON.stringify(data),"utf8")
+            await writeFile("./storage/ingredient.json",JSON.stringify(data),"utf8")
             break;
         case "PUT":
             // eslint-disable-next-line no-case-declarations
             const newElement = await readBody(event)
 
-            element.author = newElement.author
-            element.title= newElement.title
-            element.steps= newElement.steps
-            element.ingredients= newElement.ingredients
+            element.name = newElement.name
+            element.unit= newElement.title
+            element.quantity= newElement.quantity
 
             await writeFile("./storage/recipes.json",JSON.stringify(data),"utf8")
             break;
