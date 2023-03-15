@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c45d4403-bc2a-4d14-bd84-dc5240e42994" name="Changes" comment="[Update] Api JWT Token working on current routes">
+    <list default="true" id="c45d4403-bc2a-4d14-bd84-dc5240e42994" name="Changes" comment="[Update] GitIgnore">
       <change afterPath="$PROJECT_DIR$/classes/Ingredient.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/classes/Step.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/interfaces/IngredientModel.ts" afterDir="false" />
@@ -12,7 +12,6 @@
       <change afterPath="$PROJECT_DIR$/server/api/ingredient.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/api/ingredient/[Id].ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/storage/ingredients.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/Recipe.ts" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Recipe.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interfaces/RecipeModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/RecipeModel.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/api/recipe.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/recipe.ts" afterDir="false" />
