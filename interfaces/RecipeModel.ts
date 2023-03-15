@@ -3,6 +3,6 @@ interface RecipeModel{
     title: string;
     author: string;
     publication_date: number;
-    ingredients: Array<string>;
+    ingredients: Array<any>;
     steps: Array<string>;
 }

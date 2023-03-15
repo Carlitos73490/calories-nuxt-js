@@ -1,6 +1,7 @@
 interface IngredientModel {
     id : string;
     name: string;
-    quantity: number;
+    description : string
     unit: string;
+    nutrition : {[key: string]: number};
 }
