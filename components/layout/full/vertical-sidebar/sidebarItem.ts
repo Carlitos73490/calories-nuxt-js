@@ -33,7 +33,7 @@ const sidebarItem: menu[] = [
     {
         title: 'Mes recettes',
         icon: ListDetailsIcon,
-        to: '/ui/shadow'
+        to: '/RecipesList'
     },
     {
         title: 'Liste des aliments',
