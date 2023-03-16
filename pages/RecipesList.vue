@@ -1,5 +1,5 @@
 <script>
-import ProductPerformance from "~/components/dashboard/ProductPerformance.vue";
+import ProductPerformance from "~/components/RecipesList.vue";
 
 export default {
   name: "RecipesList",
@@ -11,6 +11,7 @@ export default {
 
 <template>
 <h1>Liste des recettes</h1>
+  <br />
   <v-row>
     <v-col cols="12">
       <v-row>
@@ -20,6 +21,7 @@ export default {
       </v-row>
     </v-col>
   </v-row>
+
 </template>
 
 

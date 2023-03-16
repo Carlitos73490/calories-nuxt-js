@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ProductPerformance from '@/components/dashboard/ProductPerformance.vue';
+import ProductPerformance from '~/components/RecipesList.vue';
 const headers = useRequestHeaders(['cookie']) as HeadersInit
 const { data: token } = await useFetch('/api/token', { headers })
 
