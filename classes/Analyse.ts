@@ -9,7 +9,7 @@ export default class Analyse implements AnalyseModel{
         this.sum = {}
 
         for (const ingredient of ingredients) {
-            this.ingredients += 1 * ingredient.quantity
+            this.ingredients += ingredient.quantity
 
             for (const [key , value]  of  Object.entries(ingredient.nutrition)) {
                 if(this.sum[key] === undefined){
