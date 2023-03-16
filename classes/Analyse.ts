@@ -1,12 +1,12 @@
 export default class Analyse implements AnalyseModel{
     ingredients: number;
     recipeId: string;
-    sum: any;
+    sum: {[key: string]: number};
 
     constructor(recipeId : string,ingredients : IngredientQuantityAssociationModel[] ) {
         this.ingredients = 0
         this.recipeId = recipeId
-        this.sum = new Object()
+        this.sum = {}
 
         for (const ingredient of ingredients) {
             this.ingredients += 1 * ingredient.quantity
