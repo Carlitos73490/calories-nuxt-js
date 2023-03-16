@@ -24,33 +24,17 @@ const sidebarItem: menu[] = [
         icon: LayoutDashboardIcon,
         to: '/'
     },
-    { header: 'Utilitaires' },
-    {
-        title: 'Calculateur de calories',
-        icon: CalculatorIcon,
-        to: '/ui/typography'
-    },
     {
         title: 'Mes recettes',
         icon: ListDetailsIcon,
         to: '/RecipesList'
-    },
-    {
-        title: 'Liste des aliments',
-        icon: CookieIcon,
-        to: '/ui/shadow'
     },
     { header: 'Admin' },
     {
         title: 'Login',
         icon: LoginIcon,
         to: '/auth/login'
-    },
-    {
-        title: 'Register',
-        icon: UserPlusIcon,
-        to: '/auth/register'
-    },
+    }
 ];
 
 export default sidebarItem;

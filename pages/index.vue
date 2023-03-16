@@ -5,13 +5,11 @@ const { data: token } = await useFetch('/api/token', { headers })
 
 </script>
 <template>
-  <div>{{ token || 'no token present, are you logged in?' }}</div>
-
   <v-row>
         <v-col cols="12">
             <v-row>
                 <v-col cols="12">
-                    <ProductPerformance />
+                    Bienvenue
                 </v-col>
             </v-row>
         </v-col>
