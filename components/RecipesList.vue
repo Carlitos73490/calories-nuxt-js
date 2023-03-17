@@ -39,10 +39,10 @@ async function refreshRecipesList() {
 }
 
 async function analiseRecipe(id: string) {
-  const {data} = await useFetch('/api/recipes/' + id + '/analise', {headers: {'Content-Type': 'application/json'}});
-  // calories.value = data.calories;
+  const {data} = await useFetch('/api/recipe/' + id + '/analyse', {headers: {'Content-Type': 'application/json'}});
+  calories.value = JSON.parse(data._rawValue)?.sum?.calories ?? 0;
   dialog.value = true;
-  console.log(data);
+  console.log(data._rawValue);
 }
 
 </script>
